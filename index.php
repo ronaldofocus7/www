@@ -6,8 +6,8 @@
     <h3>Kantapak Huayhongthong</h3>
     <h4>Nickname : Focus</h4>
     <p></p>
-    <img src="cat.jpg" <br />
-    <img src="cat2.jpg" <bt />
+    <img src="cat.jpg" width="200" height="121" <br />
+    <img src="cat2.jpg" width="200" height="121" <bt />
     <a href="https://www.youtube.com/watch?v=3VTkBuxU4yk">Click This Link!!!</a>
 
     <h2>Funny Story</h2>
@@ -23,3 +23,4 @@
     </p>
   </body>
 </html>
+
