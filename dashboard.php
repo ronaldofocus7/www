@@ -17,16 +17,12 @@ require('show.php');
 <div class="form">
 <p>Welcome to Dashboard.</p>
 
-<p><a href="index.php">Home</a><p>
 <p><a href="insert.php">Insert New Record</a></p>
 <p><a href="view.php">View Records</a><p>
 <p><a href="logout.php">Logout</a></p>
 
 
-<br /><br /><br /><br />
-<a href="https://www.allphptricks.com/insert-view-edit-and-delete-record-from-database-using-php-and-mysqli/">Tutorial Link</a> <br /><br />
-For More Web Development Tutorials Visit: <a href="https://www.allphptricks.com/">AllPHPTricks.com</a>
-<br /><br />Watch TV Abroad via Best VPNs Guide Visit: <a href="https://www.bestvpnsguide.com/">BestVPNsGuide.com</a>
+
 </div>
 </body>
 </html>
