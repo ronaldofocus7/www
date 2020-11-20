@@ -24,3 +24,4 @@ if (mysqli_query($conn, $sql)) {
   
 mysqli_close($conn);
 ?>
+<a href="show.php">Go to show page</a>
