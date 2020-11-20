@@ -1,11 +1,7 @@
 <?php
-/*
-Author: Javed Ur Rehman
-Website: https://www.allphptricks.com/
-*/
 
 
-$con = mysqli_connect("localhost","root","","register");
+$con = mysqli_connect("lab-itf-63070211-kantapak.mysql.database.azure.com","ronaldofocus7@lab-itf-63070211-kantapak","Ronaldo77","register");
 // Check connection
 if (mysqli_connect_errno())
   {
