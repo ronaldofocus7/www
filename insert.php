@@ -41,9 +41,6 @@ $status = "New Record Inserted Successfully.</br></br><a href='view.php'>View In
 <p style="color:#FF0000;"><?php echo $status; ?></p>
 
 <br /><br /><br /><br />
-<a href="https://www.allphptricks.com/insert-view-edit-and-delete-record-from-database-using-php-and-mysqli/">Tutorial Link</a> <br /><br />
-For More Web Development Tutorials Visit: <a href="https://www.allphptricks.com/">AllPHPTricks.com</a>
-<br /><br />Watch TV Abroad via Best VPNs Guide Visit: <a href="https://www.bestvpnsguide.com/">BestVPNsGuide.com</a>
 </div>
 </div>
 </body>
