@@ -1,5 +1,5 @@
 <?php
-require('db.php');
+require('show.php');
 include("auth.php");
 $status = "";
 if(isset($_POST['new']) && $_POST['new']==1){
