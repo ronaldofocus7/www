@@ -1,22 +1,19 @@
-$id = $_GET['id'];
-//Connect DB
-//Create query based on the ID passed from you table
-//query : delete where Staff_id = $id
-// on success delete : redirect the page to original page using header() method
-$dbname = "ITFLab";
-$conn = mysqli_connect("lab-itf-63070211-kantapak.mysql.database.azure.com", "ronaldofocus7@lab-itf-63070211-kantapak", "Ronaldo77", $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
+<?php
 
-// sql to delete a record
-$sql = "DELETE FROM Bookings WHERE Staff_ID = $id"; 
+include "dbConn.php"; // Using database connection file here
 
-if (mysqli_query($conn, $sql)) {
-    mysqli_close($conn);
-    header('Location: show.php'); //If book.php is your main page where you list your all records
-    exit;
-} else {
-    echo "Error deleting record";
+$id = $_GET['id']; // get id through query string
+
+$del = mysqli_query($db,"delete from tblemp where id = '$id'"); // delete query
+
+if($del)
+{
+    mysqli_close($db); // Close connection
+    header("location:all_records.php"); // redirects to all records page
+    exit;	
 }
+else
+{
+    echo "Error deleting record"; // display error message if not delete
+}
+?>
