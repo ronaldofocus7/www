@@ -4,7 +4,7 @@ Author: Javed Ur Rehman
 Website: https://www.allphptricks.com/
 */
  
-require('db.php');
+require('show.php');
 include("auth.php"); //include auth.php file on all secure pages ?>
 <!DOCTYPE html>
 <html>
