@@ -3,6 +3,7 @@
 <title>ITF Lab</title>
 </head>
 <body>
+<a href="insert.php">Insert New Record</a>
 <?php
 $conn = mysqli_init();
 mysqli_real_connect($conn, 'lab-itf-63070211-kantapak.mysql.database.azure.com', 'ronaldofocus7@lab-itf-63070211-kantapak', 'Ronaldo77', 'ITFLab', 3306);
