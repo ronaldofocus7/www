@@ -1,10 +1,4 @@
-<?php
-/*
-Author: Javed Ur Rehman
-Website: https://www.allphptricks.com/
-*/
-
-include("auth.php"); //include auth.php file on all secure pages ?>
+<?php?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,16 +8,9 @@ include("auth.php"); //include auth.php file on all secure pages ?>
 </head>
 <body>
 <div class="form">
-<p>Welcome <?php echo $_SESSION['username']; ?>!</p>
+<p>Welcome
 <p>This is secure area.</p>
-<p><a href="dashboard.php">Dashboard</a></p>
-<a href="logout.php">Logout</a>
-
-
-<br /><br /><br /><br />
-<a href="https://www.allphptricks.com/insert-view-edit-and-delete-record-from-database-using-php-and-mysqli/">Tutorial Link</a> <br /><br />
-For More Web Development Tutorials Visit: <a href="https://www.allphptricks.com/">AllPHPTricks.com</a>
-<br /><br />Watch TV Abroad via Best VPNs Guide Visit: <a href="https://www.bestvpnsguide.com/">BestVPNsGuide.com</a>
+<p><a href="show.php">Database</a></p>
 </div>
 </body>
 </html>
