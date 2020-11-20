@@ -9,7 +9,7 @@ $del = mysqli_query($db,"delete from tblemp where id = '$id'"); // delete query
 if($del)
 {
     mysqli_close($db); // Close connection
-    header("location:all_records.php"); // redirects to all records page
+    header("location:show.php"); // redirects to all records page
     exit;	
 }
 else
