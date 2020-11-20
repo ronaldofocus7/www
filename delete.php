@@ -1,12 +1,19 @@
 <?php
-/*
-Author: Javed Ur Rehman
-Website: https://www.allphptricks.com/
-*/
 
-require('show.php');
-$id=$_REQUEST['id'];
-$query = "DELETE FROM new_record WHERE id=$id"; 
-$result = mysqli_query($con,$query) or die ( mysqli_error());
-header("Location: show.php"); 
+include "insert.php"; // Using database connection file here
+
+$id = $_GET['id']; // get id through query string
+
+$del = mysqli_query($db,"delete from tblemp where id = '$id'"); // delete query
+
+if($del)
+{
+    mysqli_close($db); // Close connection
+    header("location:all_records.php"); // redirects to all records page
+    exit;	
+}
+else
+{
+    echo "Error deleting record"; // display error message if not delete
+}
 ?>
