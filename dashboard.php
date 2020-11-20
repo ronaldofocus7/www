@@ -5,7 +5,7 @@ Website: https://www.allphptricks.com/
 */
  
 require('show.php');
-include("auth.php"); //include auth.php file on all secure pages ?>
+//include auth.php file on all secure pages ?>
 <!DOCTYPE html>
 <html>
 <head>
